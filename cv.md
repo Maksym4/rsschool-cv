@@ -14,6 +14,9 @@
 
 ### About myself:
 
+Team player, communication skills, honesty and responsibility,
+analytical thinking
+
 ---
 
 ### Skills:
@@ -22,7 +25,7 @@
 - Javascript
 - Git, GitHub
 - VS Code
-- Figma, Avacode
+- Figma, Avacode (for Web development)
 
 ---
 
@@ -40,7 +43,7 @@ Given the triangle of consecutive odd numbers:
 21    23    25    27    29
 ```
 
-Calculate the sum of the numbers in the $$\n^**th**$$ row of this triangle (starting at index 1) e.g.: (**_Input --> Output_**)
+Calculate the sum of the numbers in the $\n^th$ row of this triangle (starting at index 1) e.g.: (**_Input --> Output_**)
 
 ```
 1 --> 1
@@ -74,11 +77,14 @@ function rowSumOddNumbers(n) {
 
 - **CS50 Basics of Programming** [Prometheus](https://prometheus.org.ua)
 - **Basics of UI development [Lviv IT school]** [Prometheus](https://prometheus.org.ua)
+- **A complete JavaScript + React course** (study stage) [Udemy](https://www.udemy.com)
 
 ---
 
 ### Languages:
 
-- **Ukrainian:** native\
-- **Russian:** native\
-- **English:** A2 [Certificate_EF_SET](https://www.efset.org/cert/yGmiem)\
+- **Ukrainian:** native
+- **Russian:** native
+- **English:** A2 [Certificate_EF_SET](https://www.efset.org/cert/yGmiem)
+
+---

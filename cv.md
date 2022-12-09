@@ -43,7 +43,7 @@ Given the triangle of consecutive odd numbers:
 21    23    25    27    29
 ```
 
-Calculate the sum of the numbers in the $\n^th$ row of this triangle (starting at index 1) e.g.: (**_Input --> Output_**)
+Calculate the sum of the numbers in the n-th row of this triangle (starting at index 1) e.g.: (**_Input --> Output_**)
 
 ```
 1 --> 1

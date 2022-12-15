@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("rsschool-cv/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
 /* Reset style*/
 * {
     padding: 0;

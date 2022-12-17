@@ -18,11 +18,11 @@
     <!-- Header -->
 
     <header class="header">
-      <div class="container">
-        <nav class="nav">
+      <nav class="nav">
+        <div class="container">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="" class="nav-link">About me</a>
+              <a href="" class="nav-link">About</a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link">Education</a>
@@ -34,7 +34,7 @@
               <a href="" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Code example</a>
+              <a href="" class="nav-link">Code</a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link">Skills</a>
@@ -46,99 +46,111 @@
               <a href="" class="nav-link">Contacts</a>
             </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Main -->
 
     <main class="main">
       <div class="container">
-        <div class="aside">
-          <aside>
-            <section class="skills">
-              <h2 class="title">Skills</h2>
-              <ul class="skills-list">
-                <li class="skills-item">HTML, CSS</li>
-                <li class="skills-item">Javascript</li>
-                <li class="skills-item">Git, GitHub</li>
-                <li class="skills-item">VS Code</li>
-                <li class="skills-item">Figma, Avacode</li>
-              </ul>
+        <div class="main-row">
+
+          <!-- Sidebar -->
+          <div class="sidebar-column">
+            <aside class="sidebar">
+              <div class="sidebar-image">
+                <img src="img/content/Foto_CV.png" alt="Foto profile">
+              </div>
+              <section class="section-skills">
+                <div class="section-sidebar">
+                  <h2 class="section-title">Skills</h2>
+                  <div class="line"></div>
+                  <ul class="section-list">
+                    <li class="section-item">HTML, CSS</li>
+                    <li class="section-item">Javascript</li>
+                    <li class="section-item">Git, GitHub</li>
+                    <li class="section-item">VS Code</li>
+                    <li class="section-item">Figma, Avacode</li>
+                  </ul>
+                </div>
+              </section>
+              <section class="section-languages">
+                <div class="section-sidebar">
+                  <h2 class="section-title">Languages</h2>
+                  <div class="line"></div>
+                  <ul class="section-list">
+                    <li class="section-item"><span class="span-bold">Ukrainian:</span> native</li>
+                    <li class="section-item"><span class="span-bold">Russian:</span> native</li>
+                    <li class="section-item"><span class="span-bold">English:</span> A2 </li>
+                  </ul>
+              </section>
+              <section class="section-contacts">
+                <div class="section-sidebar">
+                  <h2 class="section-title">Contacts</h2>
+                  <div class="line"></div>
+                  <ul class="section-list">
+                    <li class="section-item"><span class="span-bold">Location:</span> Ukraine</li>
+                    <li class="section-item"><span class="span-bold">E-mail:</span> zanderproteam@gmail.com</li>
+                    <li class="section-item"><span class="span-bold">Telegram:</span> @maksym_voloshyn</li>
+                    <li class="section-item"><span class="span-bold">Discord:</span> maksym_voloshyn</li>
+                  </ul>
+                </div>
+              </section>
+            </aside>
+          </div>
+
+
+          <div class="section-column">
+            <section class="section">
+              <div class="about-me">
+                <h2 class="title">About me</h2>
+                <p>Team player, communication skills, honesty and responsibility,
+                  analytical thinking lorem1000</p>
+              </div>
+              <div class="education">
+                <h2 class="title">Education</h2>
+                <p>National Mining University</p>
+              </div>
+              <div class="courses">
+                <h2 class="title">Courses</h2>
+                <ul class="courses-list">
+                  <li class="courses-item"><span>Prometheus</span>CS50 Basics of Programming</li>
+                  <li class="courses-item"><span>Prometheus</span>Basics of UI development</li>
+                  <li class="courses-item"><span>Udemy</span>A complete JavaScript + React course</li>
+                </ul>
+              </div>
+              <div class="projects">
+                <h2 class="title">Projects</h2>
+              </div>
+              <div class="code-example">
+                <h2 class="title">Code example</h2>
+                <code>
+                    <pre>
+                      function rowSumOddNumbers(n) {
+                        let number = 1;
+                        const numbers = [1];
+                        let result = 0;
+                        for (let i = 1; i < n; i += 1) {
+                          for (let j = 0; j < i + 1; j += 1) {
+                            number += 2;
+                            numbers.push(number);
+                          }
+                        }
+                        for (let i = numbers.length - n; i < numbers.length; i += 1) {
+                          result += numbers[i];
+                        }
+                        return result;
+                      }
+                    </pre>
+                  </code>
+              </div>
             </section>
-            <section class="languages">
-              <h2 class="title">Languages</h2>
-              <ul class="languages-list">
-                <li class="languages-item">Ukrainian: native</li>
-                <li class="languages-item">Russian: native</li>
-                <li class="languages-item">English: A2</li>
-              </ul>
-            </section>
-            <section class="contacts">
-              <h2 class="title">Contacts</h2>
-              <ul class="contacts-list">
-                <li class="contacts-item">Location: Ukraine</li>
-                <li class="contacts-item">E-mail: zanderproteam@gmail.com</li>
-                <li class="contacts-item">Telegram: @maksym_voloshyn</li>
-                <li class="contacts-item">Discord: maksym_voloshyn</li>
-              </ul>
-            </section>
-          </aside>
-        </div>
-
-        <div class="content">
-          <section class="about-me">
-            <h2 class="title">About me</h2>
-            <p>Team player, communication skills, honesty and responsibility,
-              analytical thinking</p>
-          </section>
-
-          <section class="education">
-            <h2 class="title">Education</h2>
-            <p>National Mining University</p>
-          </section>
-
-          <section class="courses">
-            <h2 class="title">Courses</h2>
-            <ul class="courses-list">
-              <li class="courses-item"><span>Prometheus</span>CS50 Basics of Programming</li>
-              <li class="courses-item"><span>Prometheus</span>Basics of UI development</li>
-              <li class="courses-item"><span>Udemy</span>A complete JavaScript + React course</li>
-            </ul>
-          </section>
-
-          <section class="projects">
-            <h2 class="title">Projects</h2>
-          </section>
-
-          <section class="code-example">
-            <h2 class="title">Code example</h2>
-            <code>
-              <pre>
-                function rowSumOddNumbers(n) {
-                  let number = 1;
-                  const numbers = [1];
-                  let result = 0;
-                
-                  for (let i = 1; i < n; i += 1) {
-                    for (let j = 0; j < i + 1; j += 1) {
-                      number += 2;
-                      numbers.push(number);
-                    }
-                  }
-                
-                  for (let i = numbers.length - n; i < numbers.length; i += 1) {
-                    result += numbers[i];
-                  }
-                
-                  return result;
-                }
-              </pre>
-            </code>
-          </section>
+          </div>
         </div>
       </div>
-    </main>
+  </div>
+  </main>
   </div>
 
 </body>

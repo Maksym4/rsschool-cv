@@ -3,7 +3,7 @@
   src: url("rsschool-cv/fonts/Montserrat-VariableFont_wght.ttf");
 }
 
-/* Reset style*/
+/* ------------------------------ Reset styles -------------------------------- */
 * {
   padding: 0;
   margin: 0;
@@ -93,34 +93,42 @@ h6 {
   font-weight: 400;
 }
 
+/* --------------------------------------------------------------------- */
+
 * {
   font-family: Montserrat, sans-serif;
   box-sizing: border-box;
 }
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------------------------------ Header -------------------------------- */
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
 
-/* Header */
-
-.nav {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
 .nav-list {
+  background: #202026;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   align-items: center;
 }
 
 .nav-link {
   margin: 0 20px;
   line-height: 50px;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.8);
-  background-image: linear-gradient(currentColor, currentColor);
+  font-size: 18px;
+  color: #ffffff;
+
+  background-image: linear-gradient(#fecb00, #fecb00);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
@@ -129,4 +137,46 @@ h6 {
 
 .nav-link:hover {
   background-size: 100% 2px;
+}
+
+/* ------------------------------ Main -------------------------------- */
+
+.main-row {
+  display: inline-flex;
+}
+
+/* -------------------------  Main => Sidebar ------------------------- */
+
+.sidebar-column {
+  background: #202026;
+  width: 400px;
+}
+
+/* -------------------- Main => Sidebar => Sections ------------------- */
+
+.section-skills {
+  padding-top: 30px;
+}
+.section-sidebar {
+  padding: 10px 0 0 30px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.section-title {
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+.line {
+  border-bottom: 2px solid #fecb00;
+  margin-bottom: 10px;
+}
+.section-list {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.section-item {
+  padding: 8px;
+}
+.span-bold {
+  font-weight: 700;
 }

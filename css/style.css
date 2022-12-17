@@ -152,31 +152,86 @@ h6 {
   width: 400px;
 }
 
-/* -------------------- Main => Sidebar => Sections ------------------- */
-
 .section-skills {
   padding-top: 30px;
 }
+
 .section-sidebar {
   padding: 10px 0 0 30px;
   margin-bottom: 20px;
   color: #ffffff;
 }
+
 .section-title {
   font-size: 28px;
   padding-bottom: 15px;
 }
+
 .line {
   border-bottom: 2px solid #fecb00;
   margin-bottom: 10px;
 }
+
 .section-list {
   font-size: 18px;
   margin-left: 10px;
 }
+
 .section-item {
   padding: 8px;
 }
+
 .span-bold {
   font-weight: 700;
+}
+
+/* -------------------------  Main => Content ------------------------- */
+
+.content-column {
+  background: #7a767618;
+  font-size: 18px;
+}
+
+.background-title {
+  background: #fecb00;
+  margin: 120px 0 80px 0;
+  width: 1040px;
+  height: 200px;
+  padding: 50px 40px;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.subtitle {
+  font-size: 30px;
+}
+
+.content {
+  padding: 20px 40px;
+  font-size: 22px;
+}
+
+.content-title {
+  font-weight: 500;
+  font-size: 32px;
+  padding: 20px 0;
+}
+
+.line-content {
+  border-bottom: 2px solid #000000;
+  margin-bottom: 15px;
+}
+
+.courses-item {
+  padding: 10px;
+}
+
+.project-link {
+  color: #000000;
+}
+
+.project-link:hover {
+  background: #fecb00;
 }

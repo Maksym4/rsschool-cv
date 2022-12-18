@@ -154,15 +154,18 @@
                         let number = 1;
                         const numbers = [1];
                         let result = 0;
+
                         for (let i = 1; i < n; i += 1) {
                           for (let j = 0; j < i + 1; j += 1) {
                             number += 2;
                             numbers.push(number);
                           }
                         }
+
                         for (let i = numbers.length - n; i < numbers.length; i += 1) {
                           result += numbers[i];
                         }
+
                         return result;
                       }
                     </pre>
@@ -174,6 +177,21 @@
         </div>
       </div>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-logo-rsschool"><a href="https://rs.school/js/"> <img class="logo-rsschool"
+                src="img/icon/rs_school_js.svg" alt="Logo RSSchool">
+            </a></div>
+          <div class="footer-content"> December 2022
+          </div>
+          <div class="footer-link-github"><a href="https://github.com/Maksym4"><img class="icon_github"
+                src="img/icon/github-mark-white.png" alt="Icon GitHub"></a></div>
+        </div>
+      </div>
+    </footer>
   </div>
 
 </body>

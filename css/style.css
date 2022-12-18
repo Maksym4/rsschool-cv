@@ -97,7 +97,6 @@ h6 {
 
 * {
   font-family: Montserrat, sans-serif;
-  box-sizing: border-box;
 }
 
 .wrapper {
@@ -233,5 +232,45 @@ h6 {
 }
 
 .project-link:hover {
+  color: #202026;
   background: #fecb00;
+}
+
+/* -------------------------  Footer ------------------------- */
+
+.footer {
+  margin-top: auto;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #1a1a1f;
+  height: 50px;
+}
+.footer-logo-rsschool {
+  width: 85px;
+  text-align: center;
+  background: #fecb00;
+  border-radius: 5px;
+}
+.footer-logo-rsschool:hover {
+  background: #1a1a1f;
+}
+.logo-rsschool {
+  height: 30px;
+}
+
+.footer-content {
+  color: #ffffff;
+  font-size: 18px;
+}
+.footer-link-github:hover {
+  border-radius: 50%;
+  background: #fecb009b;
+}
+.icon_github {
+  height: 30px;
+  width: 30px;
 }

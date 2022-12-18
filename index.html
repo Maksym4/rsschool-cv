@@ -1,11 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV#2. HTML, CSS &#38; Git Basics</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Junior Frontend Developer</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <!-- Header -->
+
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+
+    <main class="main">
+      <div class="container">
+        <div class="main-row">
+
+          <!-- Sidebar -->
+          <div class="sidebar-column">
+            <aside class="sidebar">
+              <div class="sidebar-image">
+                <img src="img/content/Foto_CV.jpg" alt="Foto profile">
+              </div>
+              <section class="section-skills" id="skills">
+                <div class="section-sidebar">
+                  <h2 class="section-title">Skills</h2>
+                  <div class="line"></div>
+                  <ul class="section-list">
+                    <li class="section-item">HTML, CSS</li>
+                    <li class="section-item">Javascript</li>
+                    <li class="section-item">Git, GitHub</li>
+                    <li class="section-item">VS Code</li>
+                    <li class="section-item">Figma, Avacode</li>
+                  </ul>
+                </div>
+              </section>
+              <section class="section-languages" id="languages">
+                <div class="section-sidebar">
+                  <h2 class="section-title">Languages</h2>
+                  <div class="line"></div>
+                  <ul class="section-list">
+                    <li class="section-item"><span class="span-bold">English:</span> A2 <a class="link-certificate"
+                        href="https://www.efset.org/cert/yGmiem" target="_blank"> EFSET</a></li>
+                    <li class="section-item"><span class="span-bold">Ukrainian:</span> native</li>
+                    <li class="section-item"><span class="span-bold">Russian:</span> native</li>
+                  </ul>
+                </div>
+              </section>
+              <section class="section-contacts" id="contacts">
+                <div class="section-sidebar">
+                  <h2 class="section-title">Contacts</h2>
+                  <div class="line"></div>
+                  <ul class="section-list">
+                    <li class="section-item"><span class="span-bold">Location:</span> Ukraine</li>
+                    <li class="section-item"><span class="span-bold">E-mail:</span> zanderproteam@gmail.com</li>
+                    <li class="section-item"><span class="span-bold">Telegram:</span> @maksym_voloshyn</li>
+                    <li class="section-item"><span class="span-bold">Discord:</span> maksym_voloshyn</li>
+                  </ul>
+                </div>
+              </section>
+            </aside>
+          </div>
+
+          <!-- Content -->
+          <div class="content-column">
+            <div class="background-title">
+              <h1 class="title">Voloshyn Maksym</h1>
+              <h2 class="subtitle">Junior Frontend Developer</h2>
+            </div>
+            <section class="section-about" id="about">
+              <div class="content">
+                <h2 class="content-title">About me</h2>
+                <div class="line-content"></div>
+                <p class="paragraph-about">
+                  I have a main job in construction/engineering. IT is my hobby, I have a desire to create an
+                  application with a customer
+                  database. The idea is not new, but I'm interested in understanding the client side, server side,
+                  database interaction.
+                  There is still a lot to learn, but everything is bound to turn out.</p>
+              </div>
+            </section>
+            <section class="section-education" id="education">
+              <div class="content">
+                <h2 class="content-title">Education</h2>
+                <div class="line-content"></div>
+                <h3 class="education-subtitle">National Mining University [Ukraine, Dnipro]</h3>
+                <h4>Mine surveyor</h4>
+              </div>
+            </section>
+            <section class="section-courses" id="courses">
+              <div class="content">
+                <h2 class="content-title">Courses</h2>
+                <div class="line-content"></div>
+                <ul class="courses-list">
+                  <li class="courses-item">CS50 Basics of
+                    Programming <span class="span-bold">[Prometheus]</span> </li>
+                  <li class="courses-item">Basics of UI
+                    development <span class="span-bold">[Prometheus]</span> </li>
+                  <li class="courses-item">JavaScript + React <span class="span-bold">[Udemy]</span>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="section-projects" id="projects">
+              <div class="content">
+                <h2 class="content-title">Projects</h2>
+                <div class="line-content"></div>
+                <div><a class="project-link" href="https://maksym4.github.io/rsschool-cv/" target="_blank">First project
+                    on HTML,CSS</a>
+                </div>
+              </div>
+            </section>
+            <section class="section-code" id="code">
+              <div class="content">
+                <h2 class="content-title">Code example</h2>
+                <div class="line-content"></div>
+                <div class="code-example">
+                  <pre>
+                      function rowSumOddNumbers(n) {
+                        let number = 1;
+                        const numbers = [1];
+                        let result = 0;
+
+                        for (let i = 1; i &lt; n; i += 1) {
+                          for (let j = 0; j &lt; i + 1; j += 1) {
+                            number += 2;
+                            numbers.push(number);
+                          }
+                        }
+
+                        for (let i = numbers.length - n; i &lt; numbers.length; i += 1) {
+                          result += numbers[i];
+                        }
+
+                        return result;
+                      }
+                  </pre>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-logo-rsschool"><a href="https://rs.school/js/" target="_blank"> <img class="logo-rsschool"
+                src="img/icon/rs_school_js.svg" alt="Logo RSSchool">
+            </a></div>
+          <div class="footer-content"> December 2022
+          </div>
+          <div class="footer-link-github"><a href="https://github.com/Maksym4" target="_blank"><img class="icon_github"
+                src="img/icon/github-mark-white.png" alt="Icon GitHub"></a></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
 </html>
